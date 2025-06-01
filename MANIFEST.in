@@ -1,0 +1,14 @@
+include README.md
+include LICENSE
+include pyproject.toml
+include setup.py
+include example.py
+recursive-include pdfpg2img *.py
+global-exclude *.pyc
+global-exclude __pycache__
+global-exclude .git*
+global-exclude .venv*
+global-exclude output_images*
+global-exclude custom_output*
+global-exclude dynamic_output*
+global-exclude test_* 
