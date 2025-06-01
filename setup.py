@@ -8,14 +8,14 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setup(
-    name="pdfpage2image",
+    name="pdfpg2img",
     version="1.0.0",
-    author="InnoVoltive",
-    author_email="innovoltive@gmail.com",
+    author="tapegoji",
+    author_email="info@innovoltive.com",
     description="A simple Python utility to convert PDF pages to images",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/innovoltive/pdfpage2image",
+    url="https://github.com/tapegoji/pdfpg2img",
     packages=find_packages(),
     classifiers=[
         "Development Status :: 4 - Beta",
@@ -41,7 +41,7 @@ setup(
     ],
     keywords="pdf image converter pages extract",
     project_urls={
-        "Bug Reports": "https://github.com/innovoltive/pdfpg2img/issues",
-        "Source": "https://github.com/innovoltive/pdfpg2img",
+        "Bug Reports": "https://github.com/tapegoji/pdfpg2img/issues",
+        "Source": "https://github.com/tapegoji/pdfpg2img",
     },
 ) 

@@ -25,7 +25,7 @@ A simple Python package to convert PDF pages to images. This tool extracts each 
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/pdfpage2image.git
+   git clone https://github.com/tapegoji/pdfpage2image.git
    cd pdfpage2image
    ```
 
